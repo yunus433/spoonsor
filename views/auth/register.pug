@@ -13,31 +13,31 @@ block content
         input.button.button--next.button--email-submit(type="submit", value="Başla")
     .form-wrapper.form-wrapper--2
       .form-description
-        h1 Etkinliğinin adı nedir?
+        h1 Kişisel bir sponsorluk arıyorsan adını soyadını veya etkinliğin için bir sponsor arıyorsan etkinlik ismini girebilir misin?
       .form
         input.field.field--etkinlikname(type="text", name="etkinlikname", placeholder="Etkinlik Adı")
         input.button.button--next(type="submit", value="Devam")
     .form-wrapper.form-wrapper--3
       .form-description
-        h1 Ne zaman ve nerede düzenliyorsun?
+        h1 Ne kadar süreyle sponsora ihtiyacın var?
       .form
         input.field.field--start.field__half(type="text", name="start", placeholder="Başlangıç Tarihi (yyyy-mm-dd)")
         input.field.field--end.field__half(type="text", name="end", placeholder="Bitiş Tarihi (yyyy-mm-dd)")
-        input.field.field--location(type="text", name="location", placeholder="Mekan")
+        input.field.field--location(type="text", name="location", placeholder="Yaşadığın şehir")
         input.button.button--next(type="submit", value="Devam")
     .form-wrapper.form-wrapper--4
       .form-description
-        h1 Etkinliğinin türü nedir?
+        h1 Ne içi sponsorluk arıyorsun?
       .form
         .radios--type
           label.radio-wrapper
             input.radio(type="radio", name="type", value="Festival/Fuar") 
             .styled-radio
-            span.radio-label Festival/Fuar
-          label.radio-wrapper.radio-wrapper--small-font
+            span.radio-label Bireysel
+          label.radio-wrapper
             input.radio(type="radio", name="type", value="Kar Amacı Gütmeyen Etkinlik") 
             .styled-radio
-            span.radio-label Kar Amacı Gütmeyen Etkinlik
+            span.radio-label Proje
           label.radio-wrapper
             input.radio(type="radio", name="type", value="Konferans")
             .styled-radio
@@ -90,7 +90,7 @@ block content
         input.button.button--next(type="submit", value="Devam")
     .form-wrapper.form-wrapper--5
       .form-description
-        h1 Etkinliğinin konusu nedir?
+        h1 Hangi konu için sponsorluk arıyorsun?
       .form
         .radios--subject
           label.radio-wrapper
@@ -179,7 +179,7 @@ block content
           label.radio-wrapper
             input.radio(type="checkbox", name="sponsorshiptype", value="İçerik/Konuşmacı") 
             .styled-radio
-            span.radio-label İçerik/Konuşmacı
+            span.radio-label Mentor/Konuşmacı
           label.radio-wrapper
             input.radio(type="checkbox", name="sponsorshiptype", value="İndirim/Hediye Kuponu") 
             .styled-radio
@@ -199,7 +199,7 @@ block content
           label.radio-wrapper
             input.radio(type="checkbox", name="sponsorshiptype", value="Tanıtım")
             .styled-radio
-            span.radio-label Tanıtım
+            span.radio-label Tanıtım/Sosyal Medya
           label.radio-wrapper
             input.radio(type="checkbox", name="sponsorshiptype", value="Ürün") 
             .styled-radio
